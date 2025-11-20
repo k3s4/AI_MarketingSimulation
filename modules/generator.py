@@ -34,7 +34,7 @@ def generate_personas(product_name: str, product_features: str, target_definitio
     Generates a list of personas based on product info and target definition using Vertex AI.
     """
     
-    model = GenerativeModel("gemini-1.5-pro")
+    model = GenerativeModel("gemini-2.5-pro")
     
     prompt = f"""
     You are a professional marketing strategist.

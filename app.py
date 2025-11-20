@@ -13,7 +13,7 @@ from modules.evaluator import evaluate_creative
 # Sidebar for configuration (optional, maybe for API keys later)
 with st.sidebar:
     st.header("Configuration")
-    st.info("Using Vertex AI (Gemini 1.5 Pro)")
+    st.info("Using Vertex AI (Gemini 2.5 Pro)")
 
 # --- Input Module ---
 st.header("1. Campaign Input")

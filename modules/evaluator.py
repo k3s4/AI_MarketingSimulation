@@ -26,7 +26,7 @@ def evaluate_creative(
     Evaluates the creative using the generated personas and Vertex AI.
     """
     
-    model = GenerativeModel("gemini-1.5-pro")
+    model = GenerativeModel("gemini-2.5-pro")
     
     # Construct the prompt context
     personas_str = json.dumps(personas, ensure_ascii=False, indent=2)
